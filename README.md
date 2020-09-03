@@ -1,8 +1,7 @@
 ### This repo contains source code of my [Web Resume](https://samukolov.github.io/ "Sam's web resume")
 
 Content:
-1. Just me, myself and I.
-
+1. Just me, myself and I.  
    *Fun fact: my first name is actually Viacheslav, but due to series of mispronunciations and weird associations it became Sam.*  
    *I have to admit though, I kinda like it :)*
 
