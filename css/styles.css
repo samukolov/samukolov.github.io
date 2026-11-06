@@ -10103,8 +10103,61 @@ p.lead {
   background-color: #7da278;
 }
 
-.dev-icons {
-  font-size: 3rem;
+.skills-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+}
+
+.skill-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 1.15rem 0;
+  border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+}
+
+.skill-row:first-child {
+  padding-top: 0;
+}
+
+.skill-label {
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.35rem;
+  letter-spacing: 0.04em;
+  color: #7da278;
+  line-height: 1.2;
+}
+
+.skill-items {
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: #495057;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .skills-list {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+  }
+
+  .skill-row {
+    padding: 1.25rem 0;
+  }
+
+  .skill-row:nth-child(1),
+  .skill-row:nth-child(2) {
+    padding-top: 0;
+  }
+
+  .skill-row:nth-last-child(1),
+  .skill-row:nth-last-child(2) {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
 }
 
 section.resume-section {
